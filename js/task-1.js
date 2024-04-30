@@ -3,6 +3,13 @@
 // Візьми код нижче і встав після оголошення своєї функції для перевірки коректності її роботи. У консоль будуть виведені результати її викликів.
 
 
+const getUserNames = (users) => {
+   
+  return users.map((user) => { return user.name });
+}
+ 
+
+
 console.log(
   getUserNames([
   {
